@@ -23,7 +23,7 @@ A simple web application that allows users to set birthday reminders, ensuring t
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/username/birthday-reminder-app.git](https://github.com/trevorcj/birthday-reminder)
+   git clone https://github.com/trevorcj/birthday-reminder
    ```
 
 2. ```bash
