@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="description"
+      content="Easily set birthday reminders and never forget a friend's special day. Portfolio project by Chimamanda Justus Trevor."
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Birthday, Birthday reminder, Chimamanda Justus, portfolio"
+    />
+    <meta name="author" content="Chimamanda Justus" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+
+    <title>Birthday Reminder App | Never Miss a Birthday Again</title>
+  </head>
+  <body>
+    <nav>
+      <h1 class="header">Birthday Reminder</h1>
+      <a href="#" class="btn dark-filled--btn">
+        <img src="images/add-icon.svg" alt="add icon" />
+        <p>Add new birthday</p>
+      </a>
+    </nav>
+
+    <div class="dashed"></div>
+
+    <header>
+      <div class="birthday-card--today"></div>
+
+      <div class="birthday-upcoming">
+        <h3>Upcoming Birthdays</h3>
+
+        <div class="birthday-list"></div>
+      </div>
+    </header>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">Add a birthday</h2>
+      <form class="modal__form">
+        <label>Full Name</label>
+        <input type="text" class="form--input-name" placeholder="Full name" />
+        <label>Birthday</label>
+        <input type="date" class="form--input-date" />
+        <button class="btn btn--add-birthday">Add birthday</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
