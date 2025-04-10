@@ -4,7 +4,7 @@
 
 A simple web application that allows users to set birthday reminders, ensuring that no birthday is forgotten.
 
-[Visit live site 🚀](https://trevorcj.github.io/birthday-reminder/
+[Visit live site 🚀](https://trevorcj.github.io/birthday-reminder/)
 
 ## Features
 
